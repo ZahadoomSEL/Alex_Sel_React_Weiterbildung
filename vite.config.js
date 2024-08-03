@@ -10,6 +10,9 @@ export default defineConfig({
       },
     }),
   ],
+  build: {
+    baseDirectory: "/dist",
+  },
   /*   server: {
     open: true,
   }, */
